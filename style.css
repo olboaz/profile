@@ -1,0 +1,97 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Roboto:300,400,500,700");
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F8F9FC;
+  color: #565E7D;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+#infos{
+  margin-bottom: 30px;
+}
+
+.btn-blue{
+  padding: 15px;
+  background-color: #6a8caf;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-blue:hover{
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.card{
+  background-color: #FFFFFF;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.1);
+  padding:30px;
+  margin:30px;
+}
+
+.card ul {
+  padding: 0;
+}
+
+.list-inline i {
+  font-size: 40px;
+}
+
+.list-inline li {
+  display:inline;
+  margin: 0px 10px;
+}
+
+h1,h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+h2 {
+  color: #7ECE90;
+  font-size: 24px;
+}
+
+.img-circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: rgba(0,0,0,0.2);
+  font-size: 16px;
+}
+
+a:hover {
+  color: black;
+}
+
+@media (max-width: 1600px) {
+  .container{
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .container{
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .container{
+    width: 450px;
+    margin: 0 auto;
+  }
+}
